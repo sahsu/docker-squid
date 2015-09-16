@@ -1,4 +1,4 @@
-# docker-squid
+# docker-squid3
 
 # Intro
  Dockerfile for squid3 with `cache_mem` / `maximum_object_size` configable setting.
