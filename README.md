@@ -1,7 +1,7 @@
 # docker-squid3
 
 # Intro
- Dockerfile for squid3 with `cache_mem` / `maximum_object_size` configable setting.
+ Dockerfile for squid3 with `CACHE_MEM` / `maximum_object_size` configable setting.
 
 # Usage
  1. pull image first:
@@ -16,7 +16,7 @@
 
 
 # ENV
- 1. `cache_mem` in MB will add into squid 3 conf
+ 1. `CACHE_MEM` in MB will add into squid 3 conf
  1. `maximum_object_size` in MB iwll add into squid 3 conf
 
 # Referenace
