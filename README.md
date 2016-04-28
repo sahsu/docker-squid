@@ -10,7 +10,7 @@
 
  1. run it with:
 
- `docker run -d --restart=always --name sahsu/docker-squid -e cache_mem=256 -e maximum_object_size=512 -v /srv/docker/squid/cache:/var/spool/squid3`
+ `docker run -d --restart=always sahsu/docker-squid -e cache_mem=64 -e maximum_object_size=512 -v /srv/docker/squid/cache:/var/spool/squid3`
 
 # ENV
  1. `cache_mem` in MB will add into squid 3 conf
