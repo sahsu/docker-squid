@@ -1,0 +1,9 @@
+squid3:
+  image: sahsu/docker-squid
+  ports:
+    - "3128:3128"
+  environment:
+   cache_mem: "64"
+   maximum_object_size: "512"
+  volumes:
+    - "/srv/docker/squid/cache:/var/spool/squid3"

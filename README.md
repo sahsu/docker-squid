@@ -8,9 +8,12 @@
 
  `docker pull sahsu/squid`
 
- 1. run it with:
+ 1. run it with: ( modify docker-compose.yml first )
 
- `docker run -d --restart=always sahsu/docker-squid -e cache_mem=64 -e maximum_object_size=512 -v /srv/docker/squid/cache:/var/spool/squid3`
+ ```
+ docker-compose up
+ ```
+
 
 # ENV
  1. `cache_mem` in MB will add into squid 3 conf
