@@ -4,6 +4,6 @@ squid3:
     - "3128:3128"
   environment:
    CACHE_MEM: "64"
-   maximum_object_size: "512"
+   MAX_OBJECT_SIZE: "512"
   volumes:
     - "/srv/docker/squid/cache:/var/spool/squid3"
