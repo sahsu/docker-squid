@@ -4,6 +4,10 @@
  Dockerfile for squid3 with `CACHE_MEM` / `maximum_object_size` configable setting.
 
 # Usage
+ 1. mkdir cache directory
+
+ `mkdir -p /srv/docker/squid/cache`
+
  1. pull image first:
 
  `docker pull sahsu/squid`
