@@ -4,20 +4,11 @@
  Dockerfile for squid3 with `CACHE_MEM` / `maximum_object_size` configable setting.
 
 # Usage
- 1. mkdir cache directory
-
- `mkdir -p /srv/docker/squid/cache`
-
- 1. pull image first:
-
- `docker pull sahsu/squid`
-
- 1. run it with: ( modify docker-compose.yml first )
-
- ```
- docker-compose up
- ```
-
+ 1. run run.sh if you have (1) 10.x internal IP, otherwise that will enable worldwise access!
+ 1. mkdir cache directory.
+```
+bash run.sh
+```
 
 # ENV
  1. `CACHE_MEM` in MB will add into squid 3 conf

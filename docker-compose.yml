@@ -6,7 +6,7 @@ squid3:
       soft: 20000
       hard: 40000
   ports:
-    - "3128:3128"
+    - "10.138.232.128:3128:3128"
   environment:
    CACHE_MEM: "64"
    MAX_OBJECT_SIZE: "512"
